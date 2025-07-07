@@ -18,7 +18,7 @@ const Index = () => {
     seconds: 0,
   });
 
-  const weddingDate = new Date("2024-09-15T16:00:00"); // Дата свадьбы
+  const weddingDate = new Date("2026-06-06T16:00:00"); // Дата свадьбы
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -47,7 +47,7 @@ const Index = () => {
             Анна & Дмитрий
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 font-['Open_Sans']">
-            15 сентября 2024
+            6 июня 2026
           </p>
 
           {/* Countdown Timer */}
@@ -142,7 +142,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-700 mb-2">15 сентября 2024</p>
+                <p className="text-gray-700 mb-2">6 июня 2026</p>
                 <p className="text-gray-700 mb-2">16:00</p>
                 <p className="text-gray-600">Храм Христа Спасителя</p>
               </CardContent>
@@ -163,7 +163,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-700 mb-2">15 сентября 2024</p>
+                <p className="text-gray-700 mb-2">6 июня 2026</p>
                 <p className="text-gray-700 mb-2">19:00</p>
                 <p className="text-gray-600">Ресторан «Метрополь»</p>
               </CardContent>
@@ -278,7 +278,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <Icon name="Heart" size={32} className="text-red-400 mx-auto mb-4" />
           <p className="text-xl font-light mb-2">Анна & Дмитрий</p>
-          <p className="text-gray-400">15 сентября 2024</p>
+          <p className="text-gray-400">6 июня 2026</p>
         </div>
       </footer>
     </div>

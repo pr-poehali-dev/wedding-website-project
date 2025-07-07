@@ -44,7 +44,7 @@ const Index = () => {
       <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-white">
         <div className="text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-light text-gray-800 mb-6 font-['Montserrat']">
-            Анна & Дмитрий
+            Анастасия & Иван
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 font-['Open_Sans']">
             6 июня 2026
@@ -196,7 +196,7 @@ const Index = () => {
               <p className="text-2xl font-mono text-gray-800">
                 2202 2020 2020 2020
               </p>
-              <p className="text-gray-600 text-sm mt-2">Анна Иванова</p>
+              <p className="text-gray-600 text-sm mt-2">Анастасия Иванова</p>
             </div>
           </div>
         </div>
@@ -277,7 +277,7 @@ const Index = () => {
       <footer className="bg-gray-800 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <Icon name="Heart" size={32} className="text-red-400 mx-auto mb-4" />
-          <p className="text-xl font-light mb-2">Анна & Дмитрий</p>
+          <p className="text-xl font-light mb-2">Анастасия & Иван</p>
           <p className="text-gray-400">6 июня 2026</p>
         </div>
       </footer>
